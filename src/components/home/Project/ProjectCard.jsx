@@ -1,0 +1,29 @@
+import React from "react"
+import { list2 } from "../../data/Data"
+
+const RecentCard = () => {
+    // console.log('list2, ' , list2);
+  return (
+    <>
+      <div className='content grid3 mtop'>
+        {list2.map((val, index) => {
+          const { cover,  name,  type } = val
+          return (
+            <div className='box shadow' key={index}>
+
+              <div className='img'>
+                <img src={cover} alt='' />
+              </div>
+              <div className='text'>
+                              <h4>{name}</h4>
+                <p>{type}</p>
+              </div>
+            </div>
+          )
+        })}
+      </div>
+    </>
+  )
+}
+
+export default RecentCard
