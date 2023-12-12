@@ -4,7 +4,6 @@
 - **React**: JavaScript library for building user interfaces.
 - **React Router**: Facilitates navigation between different sections of the website.
 - **CSS Modules**: For modular and scoped styling of components.
-- **Data File (awards.js)**: Used to store and map data for client awards.
 - **Image Import**: Incorporation of images for visual content.
 - **Common Components (Heading, Back, ProjectCard, RecentCard)**: Reusable components for consistent styling and functionality.
 
