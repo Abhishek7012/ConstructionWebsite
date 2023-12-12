@@ -2,7 +2,6 @@ import React from "react"
 import { list2 } from "../../data/Data"
 
 const RecentCard = () => {
-    // console.log('list2, ' , list2);
   return (
     <>
       <div className='content grid3 mtop'>
