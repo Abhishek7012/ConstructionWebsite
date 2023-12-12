@@ -41,6 +41,8 @@
 
 3. **CSS Modules:** Localized styling prevents style conflicts and enhances the maintainability of the codebase.
 
-4. **Common Components:** Reusable components ensure consistent styling and functionality across pages, promoting code efficiency and standardization.
+4. **Data File (awards.js):** Externalizing data allows for easy updates and maintenance, providing a clean separation of content from presentation.
+
+5. **Common Components:** Reusable components ensure consistent styling and functionality across pages, promoting code efficiency and standardization.
 
 By using these technologies, the Construction website achieves a modern, responsive, and user-friendly design. The chosen approach emphasizes code modularity, data separation, and component reusability for a streamlined development process and improved user engagement.
